@@ -1,0 +1,536 @@
+{
+ "_aviso": "Coordenadas APROXIMADAS escritas de memoria. 'duracion_min' = duración de extremo a extremo según Moovit (solo líneas 1, 3, 6, 10, 12, 16); el resto se estima.",
+ "lineas": {
+  "01": {
+   "velocidad_kmh": 45,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "Antigua",
+     "lat": 28.417,
+     "lon": -14.0125
+    },
+    {
+     "n": "Triquivijate",
+     "lat": 28.386,
+     "lon": -14.0245,
+     "opt": "Triquivijate"
+    },
+    {
+     "n": "Tuineje",
+     "lat": 28.323,
+     "lon": -14.049
+    },
+    {
+     "n": "Gran Tarajal",
+     "lat": 28.2117,
+     "lon": -14.0165
+    },
+    {
+     "n": "Las Playitas",
+     "lat": 28.2274,
+     "lon": -13.9905,
+     "opt": "Las Playitas"
+    },
+    {
+     "n": "Tarajalejo",
+     "lat": 28.1885,
+     "lon": -14.1035
+    },
+    {
+     "n": "La Lajita",
+     "lat": 28.1795,
+     "lon": -14.176
+    },
+    {
+     "n": "Costa Calma",
+     "lat": 28.162,
+     "lon": -14.225
+    },
+    {
+     "n": "Esquinzo",
+     "lat": 28.096,
+     "lon": -14.313
+    },
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    }
+   ],
+   "duracion_min": {
+    "ida": 119,
+    "vuelta": 110
+   },
+   "desvio_min": {
+    "Las Playitas": 24
+   }
+  },
+  "02": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "Antigua",
+     "lat": 28.417,
+     "lon": -14.0125
+    },
+    {
+     "n": "Vega de Río Palmas",
+     "lat": 28.3283,
+     "lon": -14.0836
+    }
+   ]
+  },
+  "03": {
+   "velocidad_kmh": 30,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "Playa Blanca",
+     "lat": 28.4626,
+     "lon": -13.8607
+    },
+    {
+     "n": "Aeropuerto",
+     "lat": 28.4527,
+     "lon": -13.8638
+    },
+    {
+     "n": "Caleta de Fuste",
+     "lat": 28.3985,
+     "lon": -13.8615
+    },
+    {
+     "n": "Las Salinas",
+     "lat": 28.383,
+     "lon": -13.8625
+    }
+   ],
+   "duracion_min": {
+    "ida": 33,
+    "vuelta": 24
+   }
+  },
+  "04": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "Pájara",
+     "lat": 28.3495,
+     "lon": -14.1068
+    },
+    {
+     "n": "La Pared",
+     "lat": 28.2235,
+     "lon": -14.234
+    },
+    {
+     "n": "Costa Calma",
+     "lat": 28.162,
+     "lon": -14.225
+    },
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    }
+   ]
+  },
+  "05": {
+   "velocidad_kmh": 35,
+   "paradas": [
+    {
+     "n": "Costa Calma",
+     "lat": 28.162,
+     "lon": -14.225
+    },
+    {
+     "n": "Esquinzo",
+     "lat": 28.096,
+     "lon": -14.313
+    },
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    }
+   ]
+  },
+  "06": {
+   "velocidad_kmh": 42,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "Parque Holandés",
+     "lat": 28.718,
+     "lon": -13.869
+    },
+    {
+     "n": "Corralejo",
+     "lat": 28.7345,
+     "lon": -13.8665
+    }
+   ],
+   "duracion_min": {
+    "ida": 47,
+    "vuelta": 35
+   }
+  },
+  "07": {
+   "velocidad_kmh": 45,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "La Oliva",
+     "lat": 28.6105,
+     "lon": -13.9285
+    },
+    {
+     "n": "El Cotillo",
+     "lat": 28.687,
+     "lon": -14.0105
+    }
+   ]
+  },
+  "08": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "Corralejo",
+     "lat": 28.7345,
+     "lon": -13.8665
+    },
+    {
+     "n": "Lajares",
+     "lat": 28.698,
+     "lon": -13.945
+    },
+    {
+     "n": "El Cotillo",
+     "lat": 28.687,
+     "lon": -14.0105
+    }
+   ]
+  },
+  "09": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "Pájara",
+     "lat": 28.3495,
+     "lon": -14.1068
+    },
+    {
+     "n": "La Pared",
+     "lat": 28.2235,
+     "lon": -14.234
+    },
+    {
+     "n": "Costa Calma",
+     "lat": 28.162,
+     "lon": -14.225
+    },
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    }
+   ]
+  },
+  "10": {
+   "velocidad_kmh": 55,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "Hospital General",
+     "lat": 28.479,
+     "lon": -13.877
+    },
+    {
+     "n": "Aeropuerto",
+     "lat": 28.4527,
+     "lon": -13.8638
+    },
+    {
+     "n": "Caleta de Fuste",
+     "lat": 28.3985,
+     "lon": -13.8615
+    },
+    {
+     "n": "Gran Tarajal",
+     "lat": 28.2117,
+     "lon": -14.0165
+    },
+    {
+     "n": "Tarajalejo",
+     "lat": 28.1885,
+     "lon": -14.1035
+    },
+    {
+     "n": "La Lajita",
+     "lat": 28.1795,
+     "lon": -14.176
+    },
+    {
+     "n": "Costa Calma",
+     "lat": 28.162,
+     "lon": -14.225
+    },
+    {
+     "n": "Esquinzo",
+     "lat": 28.096,
+     "lon": -14.313
+    },
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    }
+   ],
+   "duracion_min": {
+    "ida": 92,
+    "vuelta": 87
+   }
+  },
+  "11": {
+   "velocidad_kmh": 35,
+   "paradas": [
+    {
+     "n": "Tuineje",
+     "lat": 28.323,
+     "lon": -14.049
+    },
+    {
+     "n": "La Lajita",
+     "lat": 28.1795,
+     "lon": -14.176
+    },
+    {
+     "n": "Gran Tarajal",
+     "lat": 28.2117,
+     "lon": -14.0165
+    }
+   ]
+  },
+  "12": {
+   "velocidad_kmh": 18,
+   "paradas": [
+    {
+     "n": "Gran Tarajal",
+     "lat": 28.2117,
+     "lon": -14.0165
+    },
+    {
+     "n": "Las Playitas",
+     "lat": 28.2274,
+     "lon": -13.9905
+    }
+   ],
+   "duracion_min": {
+    "ida": 13,
+    "vuelta": 13
+   }
+  },
+  "14": {
+   "velocidad_kmh": 35,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "El Time",
+     "lat": 28.5085,
+     "lon": -13.965
+    }
+   ]
+  },
+  "15": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    },
+    {
+     "n": "Antigua",
+     "lat": 28.417,
+     "lon": -14.0125
+    },
+    {
+     "n": "Triquivijate",
+     "lat": 28.386,
+     "lon": -14.0245
+    }
+   ]
+  },
+  "16": {
+   "velocidad_kmh": 50,
+   "paradas": [
+    {
+     "n": "Gran Tarajal",
+     "lat": 28.2117,
+     "lon": -14.0165
+    },
+    {
+     "n": "Tuineje",
+     "lat": 28.323,
+     "lon": -14.049
+    },
+    {
+     "n": "Antigua",
+     "lat": 28.417,
+     "lon": -14.0125
+    },
+    {
+     "n": "Triquivijate",
+     "lat": 28.386,
+     "lon": -14.0245
+    },
+    {
+     "n": "Salinas del Carmen",
+     "lat": 28.399,
+     "lon": -13.91
+    },
+    {
+     "n": "Caleta de Fuste",
+     "lat": 28.3985,
+     "lon": -13.8615
+    },
+    {
+     "n": "El Matorral",
+     "lat": 28.438,
+     "lon": -13.862
+    },
+    {
+     "n": "Aeropuerto",
+     "lat": 28.4527,
+     "lon": -13.8638
+    },
+    {
+     "n": "Playa Blanca",
+     "lat": 28.4626,
+     "lon": -13.8607
+    },
+    {
+     "n": "Hospital General",
+     "lat": 28.479,
+     "lon": -13.877
+    },
+    {
+     "n": "Puerto del Rosario (Estación)",
+     "lat": 28.4995,
+     "lon": -13.8621
+    }
+   ],
+   "duracion_min": {
+    "ida": 69,
+    "vuelta": 85
+   }
+  },
+  "18": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "Ajuy",
+     "lat": 28.42,
+     "lon": -14.145,
+     "opt": "Ajuy"
+    },
+    {
+     "n": "Pájara",
+     "lat": 28.3495,
+     "lon": -14.1068
+    },
+    {
+     "n": "Tuineje",
+     "lat": 28.323,
+     "lon": -14.049
+    },
+    {
+     "n": "Las Playitas",
+     "lat": 28.2274,
+     "lon": -13.9905,
+     "opt": "Las Playitas"
+    },
+    {
+     "n": "Gran Tarajal",
+     "lat": 28.2117,
+     "lon": -14.0165
+    }
+   ]
+  },
+  "25": {
+   "velocidad_kmh": 40,
+   "paradas": [
+    {
+     "n": "La Lajita",
+     "lat": 28.1795,
+     "lon": -14.176
+    },
+    {
+     "n": "Costa Calma",
+     "lat": 28.162,
+     "lon": -14.225
+    },
+    {
+     "n": "Esquinzo",
+     "lat": 28.096,
+     "lon": -14.313
+    },
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    }
+   ]
+  },
+  "111": {
+   "velocidad_kmh": 30,
+   "paradas": [
+    {
+     "n": "Morro Jable",
+     "lat": 28.0505,
+     "lon": -14.3545
+    },
+    {
+     "n": "Cofete",
+     "lat": 28.104,
+     "lon": -14.453
+    },
+    {
+     "n": "Faro de Punta Jandía",
+     "lat": 28.0575,
+     "lon": -14.5135
+    }
+   ]
+  }
+ }
+}

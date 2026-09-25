@@ -1,0 +1,4563 @@
+{
+"01": {
+"nombre": "Puerto del Rosario – Morro Jable",
+"origen": "Puerto del Rosario",
+"destino": "Morro Jable",
+"leyenda": {
+"0.4, 1.0, 0.6": "Termina en Gran Tarajal",
+"1.0, 0.6, 0.4": "Entra en Triquivijate",
+"1.0, 0.85, 0.96": "Gran Tarajal - Puerto del Rosario",
+"0.2, 0.8, 1.0": "Entra en las Playitas",
+"0.4, 0.4, 0.4": "Gran Tarajal - Morro Jable",
+"1.0, 1.0, 0.0": "Sale/Termina en el muelle de Morro Jable.",
+"0.8, 0.0, 0.0": "Morro Jable - Gran Tarajal",
+"1.0, 0.0, 1.0": "Sale/Termina en el muelle de Morro Jable. Entra en Triquivijate",
+"0.22, 0.46, 0.11": "Sale/Termina en el muelle de Morro Jable. Entra en las Playitas"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "05:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "05:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "05:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "05:30",
+"nota": "Termina en Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "05:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "05:45",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "05:45"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "05:45",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "05:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "05:45",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "06:15",
+"nota": "Entra en Triquivijate",
+"via": [
+"Triquivijate"
+]
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "06:30",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "06:30",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "06:30",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "07:00",
+"nota": "Entra en Triquivijate",
+"via": [
+"Triquivijate"
+]
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "07:30",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:30",
+"nota": "Sale/Termina en el muelle de Morro Jable. Entra en las Playitas",
+"via": [
+"Las Playitas"
+],
+"muelle": true
+},
+{
+"s": "ida",
+"d": "S",
+"h": "10:30",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "S",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:30",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "12:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "12:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "12:30",
+"nota": "Entra en las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "ida",
+"d": "S",
+"h": "12:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:30",
+"nota": "Sale/Termina en el muelle de Morro Jable. Entra en Triquivijate",
+"via": [
+"Triquivijate"
+],
+"muelle": true
+},
+{
+"s": "ida",
+"d": "S",
+"h": "13:30",
+"nota": "Entra en Triquivijate",
+"via": [
+"Triquivijate"
+]
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "14:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "14:30",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "15:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "15:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "15:30",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "S",
+"h": "15:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "15:30",
+"nota": "Termina en Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "16:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "17:00",
+"nota": "Termina en Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "17:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "17:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "19:00",
+"nota": "Entra en Triquivijate",
+"via": [
+"Triquivijate"
+]
+},
+{
+"s": "ida",
+"d": "S",
+"h": "19:00",
+"nota": "Entra en Triquivijate",
+"via": [
+"Triquivijate"
+]
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "20:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "20:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "20:00",
+"nota": "Entra en las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "20:15",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "20:15",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "20:15",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "21:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "21:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "21:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "22:30",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "22:30",
+"nota": "Termina en Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "22:30",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "22:30",
+"nota": "Termina en Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "22:30",
+"nota": "Gran Tarajal - Morro Jable",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "23:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "23:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "05:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "06:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "06:30",
+"nota": "Gran Tarajal - Puerto del Rosario",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "07:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "07:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "07:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "07:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "07:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "08:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "09:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "10:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "10:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "11:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "11:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:30",
+"nota": "Gran Tarajal - Puerto del Rosario",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "12:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "12:45",
+"nota": "Gran Tarajal - Puerto del Rosario",
+"inicio": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "13:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "13:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "14:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "14:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "14:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "14:30",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "14:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "15:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "15:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "16:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "16:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "16:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "17:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:30",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "18:45",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:45",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:45",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "19:00",
+"nota": "Sale/Termina en el muelle de Morro Jable.",
+"muelle": true
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "19:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "19:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "20:00",
+"nota": "Entra en las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "20:00",
+"nota": "Entra en las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "21:30",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "21:30",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:30",
+"nota": "Morro Jable - Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "22:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "22:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "22:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "23:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "23:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "23:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "23:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "23:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "23:45"
+}
+]
+},
+"02": {
+"nombre": "Puerto del Rosario – Vega de Río Palmas",
+"origen": "Puerto del Rosario",
+"destino": "Vega de Río Palmas",
+"leyenda": {
+"1.0, 1.0, 0.0": "De Lunes a Sábado",
+"0.4, 1.0, 0.6": "Solo los domingos y festivos",
+"0.2, 0.8, 1.0": "Pasa por Antigua"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "11:00",
+"nota": "Pasa por Antigua"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "14:30"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "06:30",
+"nota": "De Lunes a Sábado"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:30",
+"nota": "Solo los domingos y festivos"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:30"
+}
+]
+},
+"03": {
+"nombre": "Puerto del Rosario – Las Salinas",
+"origen": "Puerto del Rosario",
+"destino": "Las Salinas",
+"leyenda": {
+"0.0, 0.69, 0.94": "Express (*)",
+"0.92, 0.82, 0.86": "Últimos servicios con acceso al aeropuerto / Last services with airport access:"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S",
+"h": "05:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "06:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "06:10",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "06:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "06:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "06:45",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "07:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "07:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "07:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "07:45",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:30",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "08:30",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "10:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "10:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:15"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:15"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:30",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:45",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "15:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "15:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "15:30",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "15:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "16:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "16:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:45",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "17:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "17:30",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "17:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:15",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "18:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:30",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "20:00",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "20:15"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "20:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "20:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "20:45",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "21:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "21:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "21:45",
+"nota": "Express (*)"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "22:15"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "22:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "23:00",
+"nota": "Últimos servicios con acceso al aeropuerto / Last services with airport access:"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "23:00",
+"nota": "Últimos servicios con acceso al aeropuerto / Last services with airport access:"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "23:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "01:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "01:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "06:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "06:50",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:30",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "07:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "07:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:30",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "09:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:15",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "09:30",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:15",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:15",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "14:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "14:30",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "14:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "14:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "16:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "16:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "16:15",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "16:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "16:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:30",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "18:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "18:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "19:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "19:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "19:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "19:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "19:45",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "19:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "20:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "20:15",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "20:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "21:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:00",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "21:15",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "21:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "22:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "22:00",
+"nota": "Últimos servicios con acceso al aeropuerto / Last services with airport access:"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "22:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "22:30",
+"nota": "Express (*)"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "23:15",
+"nota": "Últimos servicios con acceso al aeropuerto / Last services with airport access:"
+}
+]
+},
+"04": {
+"nombre": "Pájara – Morro Jable",
+"origen": "Pájara",
+"destino": "Morro Jable",
+"leyenda": {
+"0.2, 0.8, 1.0": "Solo de Lunes a Viernes. Sale y Termina en La Pared"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "06:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:30",
+"nota": "Solo de Lunes a Viernes. Sale y Termina en La Pared"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "09:30",
+"nota": "Solo de Lunes a Viernes. Sale y Termina en La Pared"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:30"
+}
+]
+},
+"05": {
+"nombre": "Costa Calma – Morro Jable",
+"origen": "Costa Calma",
+"destino": "Morro Jable",
+"leyenda": {
+"1.0, 1.0, 0.0": "Solo de Lunes a Viernes. Esquinzo - Morro Jable",
+"1.0, 0.6, 0.0": "Solo de Lunes a Viernes. Morro Jable - Esquinzo"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S",
+"h": "07:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "07:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "08:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "08:30",
+"nota": "Solo de Lunes a Viernes. Esquinzo - Morro Jable"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:30",
+"nota": "Solo de Lunes a Viernes. Esquinzo - Morro Jable"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "15:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "22:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "22:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "07:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "07:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "07:30",
+"nota": "Solo de Lunes a Viernes. Morro Jable - Esquinzo"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "12:30",
+"nota": "Solo de Lunes a Viernes. Morro Jable - Esquinzo"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "14:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "21:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:30"
+}
+]
+},
+"06": {
+"nombre": "Puerto del Rosario – Corralejo",
+"origen": "Puerto del Rosario",
+"destino": "Corralejo",
+"leyenda": {
+"0.95, 0.95, 0.95": "General",
+"1.0, 1.0, 0.0": "De lunes a viernes, no festivos",
+"0.4, 1.0, 0.6": "Entra hasta centro comercial de Parque Holandés",
+"1.0, 0.6, 0.4": "Los hoteles - Corralejo. De lunes a viernes, no festivos",
+"0.0, 1.0, 1.0": "Corralejo - Los hoteles . De lunes a viernes, no festivos. No sale del muelle",
+"0.64, 0.76, 0.96": "Entra hasta CC. Parque Holandés - (De lunes a viernes: para en el hospital y en el aeropuerto)"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "06:00",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "06:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "06:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "07:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "07:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "07:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "07:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "07:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "08:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "09:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "09:15",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:45",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "09:45",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "10:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "11:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "11:45",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "12:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:45",
+"nota": "Los hoteles - Corralejo. De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:45",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "15:00",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "15:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "15:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "16:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "16:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "17:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "18:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "20:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "20:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "21:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "21:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "22:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "22:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "22:45"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "22:45"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "23:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "06:00",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "06:45",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:00",
+"nota": "Entra hasta CC. Parque Holandés - (De lunes a viernes: para en el hospital y en el aeropuerto)"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "07:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "07:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "09:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "09:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "10:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "10:45",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:15",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:10"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "13:15",
+"nota": "Corralejo - Los hoteles . De lunes a viernes, no festivos. No sale del muelle"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "13:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "14:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "14:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "14:15",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "14:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "15:00",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "16:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "16:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "16:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "17:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "17:30",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "18:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "19:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "19:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "20:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "20:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "21:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "22:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "22:00",
+"nota": "Entra hasta centro comercial de Parque Holandés"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "23:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "23:30"
+}
+]
+},
+"07": {
+"nombre": "Puerto del Rosario – El Cotillo",
+"origen": "Puerto del Rosario",
+"destino": "El Cotillo",
+"leyenda": {
+"0.2, 0.8, 1.0": "Pasa por Corralejo",
+"1.0, 1.0, 0.0": "De lunes a viernes, no festivos",
+"0.4, 1.0, 0.6": "Solo sábados, domingos y festivos. Pasa por Corralejo",
+"1.0, 0.6, 0.0": "Hasta el Parque Tecnológico. De lunes a viernes, no festivos",
+"0.42, 0.66, 0.31": "Sale del Parque Tecnológico. De lunes a viernes, no festivos",
+"1.0, 0.0, 1.0": "Solo sábados, domingos y festivos.",
+"0.4, 0.4, 0.4": "Realiza parada en el Parque Tecnológico"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "07:00",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "07:45",
+"nota": "Hasta el Parque Tecnológico. De lunes a viernes, no festivos *"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "14:00",
+"nota": "Hasta el Parque Tecnológico. De lunes a viernes, no festivos *"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "14:15",
+"nota": "Pasa por Corralejo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "15:45",
+"nota": "Realiza parada en el Parque Tecnológico"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "S,DF",
+"h": "19:00",
+"nota": "Solo sábados, domingos y festivos."
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "19:15",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "20:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "06:30",
+"nota": "De lunes a viernes, no festivos. Pasa por Corralejo. Sale de Corralejo hacia Pto. Rosario a las 07:00"
+},
+{
+"s": "vuelta",
+"d": "S,DF",
+"h": "06:45",
+"nota": "Solo sábados, domingos y festivos. Pasa por Corralejo"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:00",
+"nota": "De lunes a viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:00",
+"nota": "Sale del Parque Tecnológico. De lunes a viernes, no festivos *"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "14:15",
+"nota": "Sale del Parque Tecnológico. De lunes a viernes, no festivos *"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "17:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "21:15",
+"nota": "Realiza parada en el Parque Tecnológico"
+}
+]
+},
+"08": {
+"nombre": "Corralejo – El Cotillo",
+"origen": "Corralejo",
+"destino": "El Cotillo",
+"leyenda": {
+"0.2, 0.8, 1.0": "Directo, no pasa por La Oliva Sale / termina en la parada \"Plaza de la Ermita\" El Cotillo",
+"1.0, 1.0, 0.0": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado",
+"0.0, 1.0, 0.0": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "07:30"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "08:00"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "10:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "10:15",
+"nota": "Directo, no pasa por La Oliva Sale / termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "11:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "12:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "13:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "14:15"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "15:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "15:30",
+"nota": "Directo, no pasa por La Oliva Sale / termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "16:15",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "17:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "17:15",
+"nota": "Directo, no pasa por La Oliva Sale / termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "18:15",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "19:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "20:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "22:00",
+"nota": "Termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "07:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "08:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "09:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "10:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "11:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "13:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "14:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "15:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:15",
+"nota": "Directo, no pasa por La Oliva Sale / termina en la parada \"Plaza de la Ermita\" El Cotillo"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "17:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "18:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "19:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "21:00",
+"nota": "Sale de la parada \"Plaza de la Ermita\" El Cotillo 5 minutos antes del horario señalado"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "23:00"
+}
+]
+},
+"09": {
+"nombre": "Pájara – Morro Jable",
+"origen": "Pájara",
+"destino": "Morro Jable",
+"leyenda": {},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "06:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:15"
+}
+]
+},
+"10": {
+"nombre": "Puerto del Rosario – Morro Jable",
+"origen": "Puerto del Rosario",
+"destino": "Morro Jable",
+"leyenda": {
+"1.0, 1.0, 0.0": "De Lunes a Viernes, no festivos",
+"1.0, 0.6, 0.4": "Solo los sábados"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "14:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "16:00",
+"nota": "De Lunes a Viernes, no festivos"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "20:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "20:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "06:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:30",
+"nota": "De Lunes a Viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "09:00",
+"nota": "Solo los sábados"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "09:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "13:30",
+"nota": "De Lunes a Viernes, no festivos"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "14:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "15:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "16:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "21:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:30"
+}
+]
+},
+"11": {
+"nombre": "Tuineje – Gran Tarajal",
+"origen": "Tuineje",
+"destino": "Gran Tarajal",
+"leyenda": {},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:20"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "11:30"
+}
+]
+},
+"12": {
+"nombre": "Gran Tarajal – Las Playitas",
+"origen": "Gran Tarajal",
+"destino": "Las Playitas",
+"leyenda": {
+"0.2, 0.8, 1.0": "Línea 18 Hora aproximada de paso"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "07:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "07:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "09:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "11:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "12:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "12:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:15"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "14:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "15:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "15:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "15:45"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "15:45"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "16:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "17:15"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "17:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "17:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "18:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "20:15"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "20:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "20:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "20:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "22:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "05:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "05:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "05:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "06:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "06:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "07:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "07:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "08:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "09:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "09:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "10:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "10:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "10:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "10:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "10:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "11:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "11:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "11:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "11:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "12:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "13:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "13:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "14:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "15:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "16:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "16:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "16:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "16:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "16:45"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "16:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "20:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "20:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "20:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "20:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "22:30"
+}
+]
+},
+"14": {
+"nombre": "Puerto del Rosario – El Time",
+"origen": "Puerto del Rosario",
+"destino": "El Time",
+"leyenda": {},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S",
+"h": "08:15"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "08:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "14:00"
+}
+]
+},
+"15": {
+"nombre": "Puerto del Rosario – Triquivijate",
+"origen": "Puerto del Rosario",
+"destino": "Triquivijate",
+"leyenda": {
+"0.4, 1.0, 0.6": "Solo de lunes a viernes, Línea 1",
+"1.0, 1.0, 0.0": "Solo sábados, Línea 1",
+"0.2, 0.8, 1.0": "Línea 1",
+"1.0, 0.0, 1.0": "Pasa por Antigua"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "06:15",
+"nota": "Solo de lunes a viernes, Línea 1"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "07:00",
+"nota": "Solo sábados, Línea 1"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "09:00"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "13:30",
+"nota": "Línea 1"
+},
+{
+"s": "ida",
+"d": "LV,S",
+"h": "19:00",
+"nota": "Línea 1"
+},
+{
+"s": "vuelta",
+"d": "LV,S",
+"h": "09:30",
+"nota": "Pasa por Antigua"
+}
+]
+},
+"16": {
+"nombre": "Gran Tarajal – Puerto del Rosario",
+"origen": "Gran Tarajal",
+"destino": "Puerto del Rosario",
+"leyenda": {},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "00:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "00:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "05:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "06:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "06:00"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "06:30"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "07:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "10:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "11:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "11:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "12:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "14:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "15:15"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "16:15"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "16:15"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "17:00"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "17:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "19:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "20:45"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "20:45"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "21:00"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "21:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "21:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "23:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "05:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "05:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "05:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "07:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "07:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "08:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:15"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "08:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "09:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "09:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "11:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "11:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "11:45"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "11:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "11:45"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "13:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "14:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "14:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "15:45"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "17:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "18:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "19:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "19:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "20:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "22:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "23:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "23:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "23:15"
+}
+]
+},
+"18": {
+"nombre": "Pájara – Gran Tarajal",
+"origen": "Pájara",
+"destino": "Gran Tarajal",
+"leyenda": {
+"1.0, 1.0, 0.0": "Salida desde Tuineje",
+"0.2, 0.8, 1.0": "Gran Tarajal - Cuchillete",
+"0.4, 1.0, 0.6": "Cuchillete - Gran Tarajal",
+"1.0, 0.6, 1.0": "Entra en Las Playitas",
+"1.0, 0.6, 0.0": "Salida desde Ajuy"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "07:20",
+"nota": "Salida desde Ajuy",
+"inicio": "Ajuy"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "08:00"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "08:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "09:15",
+"nota": "Cuchillete - Gran Tarajal",
+"inicio": "Cuchillete"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "12:30",
+"nota": "Salida desde Tuineje",
+"inicio": "Tuineje"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "12:45"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "13:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "13:45"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "15:30"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "09:00",
+"nota": "Gran Tarajal - Cuchillete",
+"fin": "Cuchillete"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "12:15",
+"nota": "Entra en Las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "13:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "13:00",
+"nota": "Entra en Las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "16:30",
+"nota": "Gran Tarajal - Cuchillete",
+"fin": "Cuchillete"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "18:30",
+"nota": "Entra en Las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:30",
+"nota": "Entra en Las Playitas",
+"via": [
+"Las Playitas"
+]
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:30",
+"nota": "Entra en Las Playitas",
+"via": [
+"Las Playitas"
+]
+}
+]
+},
+"25": {
+"nombre": "La Lajita – Morro Jable",
+"origen": "La Lajita",
+"destino": "Morro Jable",
+"leyenda": {
+"0.2, 0.8, 1.0": "Finaliza en Gran Tarajal",
+"0.0, 1.0, 0.0": "Sale a las 22:45 de Gran Tarajal",
+"1.0, 1.0, 0.0": "De lunes a viernes entra a la urbanización Esquinzo",
+"1.0, 0.6, 0.4": "De lunes a viernes entra a Esquinzo y finaliza en Gran Tarajal"
+},
+"salidas": [
+{
+"s": "ida",
+"d": "LV",
+"h": "14:15",
+"nota": "De lunes a viernes entra a la urbanización Esquinzo"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "14:15"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "14:15"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "16:30"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "19:30"
+},
+{
+"s": "ida",
+"d": "LV",
+"h": "23:00",
+"nota": "Sale a las 22:45 de Gran Tarajal"
+},
+{
+"s": "ida",
+"d": "S",
+"h": "23:00"
+},
+{
+"s": "ida",
+"d": "DF",
+"h": "23:00"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "15:15"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "15:15"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "18:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "18:00"
+},
+{
+"s": "vuelta",
+"d": "LV",
+"h": "21:00",
+"nota": "De lunes a viernes entra a Esquinzo y finaliza en Gran Tarajal",
+"fin": "Gran Tarajal"
+},
+{
+"s": "vuelta",
+"d": "S",
+"h": "21:00"
+},
+{
+"s": "vuelta",
+"d": "DF",
+"h": "21:00"
+}
+]
+},
+"111": {
+"nombre": "Morro Jable – Punta de Jandía",
+"origen": "Morro Jable",
+"destino": "Punta de Jandía",
+"leyenda": {},
+"salidas": [
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "10:00"
+},
+{
+"s": "ida",
+"d": "LV,S,DF",
+"h": "14:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "12:15"
+},
+{
+"s": "vuelta",
+"d": "LV,S,DF",
+"h": "16:15"
+}
+]
+}
+}

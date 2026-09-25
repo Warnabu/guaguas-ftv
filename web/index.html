@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b6e99">
+<title>Guaguas Fuerteventura</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --azul:#0b6e99; --gris:#5b6770; --borde:#e3e8ec; --fondo:#fff; --texto:#1b2731; }
+  @media (prefers-color-scheme: dark) { :root { --fondo:#18222b; --texto:#e8eef2; --borde:#2b3945; --gris:#9aa9b5; } }
+  * { box-sizing:border-box; }
+  html, body { height:100%; margin:0; font:15px/1.35 system-ui, sans-serif; color:var(--texto); }
+  #map { position:absolute; inset:0; }
+  #barra { position:absolute; z-index:1000; top:10px; left:10px; right:10px; max-width:420px; }
+  #fila { display:flex; gap:8px; }
+  #buscar { flex:1; padding:11px 14px; border:1px solid var(--borde); border-radius:12px; font-size:16px; background:var(--fondo); color:var(--texto); box-shadow:0 2px 8px #0003; }
+  #gps { border:1px solid var(--borde); background:var(--fondo); border-radius:12px; padding:0 14px; font-size:20px; box-shadow:0 2px 8px #0003; cursor:pointer; }
+  #sug { background:var(--fondo); border-radius:12px; margin-top:6px; box-shadow:0 2px 8px #0003; overflow:hidden; }
+  #sug div { padding:10px 14px; border-top:1px solid var(--borde); cursor:pointer; }
+  #sug div:first-child { border-top:0; }
+  #sug small { color:var(--gris); }
+  #panel { position:absolute; z-index:1000; left:0; right:0; bottom:0; max-height:58vh; overflow:auto; background:var(--fondo);
+           border-radius:18px 18px 0 0; box-shadow:0 -4px 16px #0004; padding:14px 16px 20px; }
+  @media (min-width:800px) { #panel { left:10px; right:auto; top:70px; bottom:10px; width:390px; max-height:none; border-radius:16px; } }
+  .oculto { display:none; }
+  #cerrar { position:absolute; top:8px; right:10px; border:0; background:none; font-size:26px; color:var(--gris); cursor:pointer; }
+  h2 { margin:0 34px 2px 0; font-size:19px; }
+  .sub { color:var(--gris); font-size:13px; margin-bottom:8px; }
+  #chips { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px; }
+  .chip { border:1px solid var(--borde); border-radius:16px; padding:5px 11px; background:none; color:var(--texto); font-size:13px; cursor:pointer; }
+  .chip.on { background:var(--azul); border-color:var(--azul); color:#fff; }
+  .dest { margin:12px 0 4px; font-weight:600; font-size:14px; color:var(--gris); text-transform:uppercase; letter-spacing:.03em; }
+  .fila-cont { border-top:1px solid var(--borde); }
+  .fila-cont:first-child { border-top:0; }
+  .fila { display:flex; align-items:center; gap:10px; padding:8px 0 2px; }
+  .subir-linea { padding:0 0 8px 50px; }
+  .lin { min-width:40px; text-align:center; color:#fff; font-weight:700; border-radius:8px; padding:4px 6px; }
+  .cuando { flex:1; }
+  .cuando b { font-size:16px; }
+  .nota { color:var(--gris); font-size:12px; }
+  .tag { font-size:11px; border-radius:6px; padding:1px 6px; border:1px solid var(--borde); color:var(--gris); white-space:nowrap; }
+  .tag.of { color:#1a7f37; border-color:#1a7f37; }
+  .tag.es { color:#b25e00; border-color:#b25e00; }
+  #aviso { font-size:12px; color:var(--gris); margin-top:12px; }
+  .subir-btn { border:1px solid var(--azul); color:var(--azul); background:none; border-radius:8px; padding:5px 10px; font-size:12px; cursor:pointer; white-space:nowrap; }
+  .subir-btn:active { background:var(--azul); color:#fff; }
+  .subir-btn:disabled { opacity:.5; cursor:default; }
+  .subir-ok { font-size:12px; color:#1a7f37; white-space:nowrap; }
+  .subir-espera { font-size:12px; color:var(--gris); white-space:nowrap; }
+  #perfil { position:absolute; z-index:1000; top:10px; right:10px; background:var(--fondo); border:1px solid var(--borde);
+            border-radius:12px; padding:6px 12px; font-size:12px; box-shadow:0 2px 8px #0003; text-align:right; color:var(--gris); }
+  #perfil b { color:var(--texto); font-size:13px; }
+  .msg { padding:12px 0; color:var(--gris); }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="perfil" class="oculto"></div>
+<div id="barra">
+  <div id="fila"><input id="buscar" placeholder="Buscar parada…" autocomplete="off"><button id="gps" title="Paradas cerca de mí">📍</button></div>
+  <div id="sug" class="oculto"></div>
+</div>
+<div id="panel" class="oculto">
+  <button id="cerrar" aria-label="Cerrar">×</button>
+  <h2 id="pnombre"></h2>
+  <div class="sub" id="preloj"></div>
+  <div id="chips"></div>
+  <div id="lista"></div>
+  <p id="aviso"></p>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/cliente.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const json = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); };
+
+const map = L.map('map', { preferCanvas: true }).setView([28.35, -14.0], 9);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
+
+let paradas = [], lugares = [], colores = {}, calibradas = {}, actual = null, filtro = null, temporizador = null, marcaSel = null, marcaYo = null, marcadas = new Set();
+
+async function iniciar() {
+  const [lineas, ps, osm, lug] = await Promise.all([json('/api/lineas'), json('/api/paradas'), json('/api/osm'), json('/api/lugares')]);
+  lugares = lug;
+  lineas.forEach(l => {
+    colores[l.num] = l.color; calibradas[l.num] = l.calibrada;
+    L.polyline(l.trazado, { color: l.color, weight: 3, opacity: .55, interactive: false }).addTo(map);
+  });
+  osm.forEach(p => {
+    const m = L.circleMarker([p.lat, p.lon], { radius: 5, color: '#fff', weight: 1, fillColor: '#6b7780', fillOpacity: .9 }).addTo(map);
+    m.bindTooltip(p.n);
+    m.on('click', () => elegir({ tipo: 'osm', nombre: p.n, lat: p.lat, lon: p.lon }));
+  });
+  paradas = ps;
+  ps.forEach(p => {
+    const m = L.circleMarker([p.lat, p.lon], { radius: 8, color: '#fff', weight: 2, fillColor: '#0b6e99', fillOpacity: 1 }).addTo(map);
+    m.bindTooltip(p.nombre);
+    m.on('click', () => elegir({ tipo: 'parada', ...p }));
+  });
+}
+
+function elegir(p) {
+  actual = p; filtro = null; marcadas = new Set();
+  if (marcaSel) map.removeLayer(marcaSel);
+  marcaSel = L.circleMarker([p.lat, p.lon], { radius: 14, color: '#e6194b', weight: 3, fill: false }).addTo(map);
+  $('pnombre').textContent = p.nombre;
+  $('panel').classList.remove('oculto');
+  $('sug').classList.add('oculto');
+  cargar();
+  clearInterval(temporizador); temporizador = setInterval(cargar, 30000);
+}
+
+async function cargar() {
+  if (!actual) return;
+  const p = actual;
+  const url = p.tipo === 'osm' ? `/api/cerca?lat=${p.lat}&lon=${p.lon}&nombre=${encodeURIComponent(p.nombre)}` : `/api/parada/${p.id}`;
+  try { pintar(await json(url), p); }
+  catch (e) { $('lista').innerHTML = '<div class="msg">No se pudo cargar. ¿Está el servidor en marcha?</div>'; }
+}
+
+function pintar(d, p) {
+  if (p !== actual) return;
+  $('preloj').textContent = `${d.dia} · ahora ${d.ahora}` + (d.parada.aprox ? ' · parada no incluida en los recorridos: cálculo aproximado' : '');
+  const destinos = d.grupos.map(g => g.destino);
+  const c = $('chips'); c.innerHTML = '';
+  if (destinos.length > 1) {
+    [['Todos los sentidos', null], ...destinos.map(x => ['→ ' + x, x])].forEach(([t, v]) => {
+      const b = document.createElement('button');
+      b.className = 'chip' + (filtro === v ? ' on' : ''); b.textContent = t;
+      b.onclick = () => { filtro = v; pintar(d, p); };
+      c.appendChild(b);
+    });
+  }
+  const l = $('lista'); l.innerHTML = '';
+  const grupos = d.grupos.filter(g => !filtro || g.destino === filtro);
+  if (!grupos.length) l.innerHTML = '<div class="msg">No hay más guaguas registradas para esta parada.</div>';
+  grupos.forEach(g => {
+    const h = document.createElement('div'); h.className = 'dest'; h.textContent = 'Hacia ' + g.destino; l.appendChild(h);
+    g.salidas.forEach(s => {
+      const cont = document.createElement('div'); cont.className = 'fila-cont';
+      const f = document.createElement('div'); f.className = 'fila';
+      const [clase, texto] = s.prec === 'confirmada' ? ['of', `confirmado (${s.n})`] : s.prec === 'vivo' ? ['of', `en directo (${s.n})`]
+                            : s.prec === 'oficial' ? ['of', 'hora oficial'] : s.cal ? ['', 'programada'] : ['es', 'estimada'];
+      f.innerHTML = `<span class="lin" style="background:${colores[s.linea] || '#555'}">${s.linea}</span>
+        <div class="cuando"><b>${s.texto}</b>${s.nota ? `<div class="nota">${s.nota}</div>` : ''}</div>
+        <span class="tag ${clase}">${texto}</span>`;
+      cont.appendChild(f);
+      if (p.tipo === 'parada' && s.subir) {
+        const linea2 = document.createElement('div'); linea2.className = 'subir-linea';
+        if (marcadas.has(s.viaje)) {
+          linea2.innerHTML = '<span class="subir-ok">✓ Avisaste de esta guagua</span>';
+        } else {
+          const b = document.createElement('button');
+          b.className = 'subir-btn'; b.textContent = 'Me he subido a esta guagua';
+          b.onclick = async () => {
+            b.disabled = true; b.textContent = 'Enviando…';
+            try {
+              const r = await Guaguas.marcarSubida(p.id, s.viaje);
+              marcadas.add(s.viaje);
+              linea2.innerHTML = '<span class="subir-ok">✓ ' + (r.estado === 'confirmada' ? 'Confirmado por varias personas' : 'Avisado, esperando a más gente') + '</span>';
+              if (r.estado === 'confirmada') cargar();
+            } catch (e) {
+              b.disabled = false; b.textContent = 'Me he subido a esta guagua'; alert(e.message);
+            }
+          };
+          linea2.appendChild(b);
+        }
+        cont.appendChild(linea2);
+      }
+      l.appendChild(cont);
+    });
+  });
+
+  $('aviso').textContent = destinos.length > 1
+    ? 'Hay guaguas en los dos sentidos: elige el de tu destino. Si vas hacia el otro lado, la parada suele estar enfrente, al otro lado de la calzada.'
+    : '';
+}
+
+$('cerrar').onclick = () => { $('panel').classList.add('oculto'); clearInterval(temporizador); actual = null; if (marcaSel) map.removeLayer(marcaSel); };
+
+const cercana = (la, lo) => paradas.slice().sort((a, b) => Math.hypot(a.lat - la, (a.lon - lo) * .88) - Math.hypot(b.lat - la, (b.lon - lo) * .88))[0];
+$('buscar').oninput = e => {
+  const q = norm(e.target.value.trim()), s = $('sug');
+  if (!q) { s.classList.add('oculto'); return; }
+  const r = paradas.filter(p => norm(p.nombre).includes(q)).slice(0, 6).map(p => ({ t: p.nombre, sub: 'líneas ' + p.lineas.join(', '), f: () => { map.setView([p.lat, p.lon], 14); elegir({ tipo: 'parada', ...p }); } }));
+  lugares.filter(l => norm(l.n).includes(q)).slice(0, 3).forEach(l => r.push({ t: l.n, sub: 'lugar · parada más cercana', f: () => { const c = cercana(l.lat, l.lon); if (!c) return; map.setView([c.lat, c.lon], 14); elegir({ tipo: 'parada', ...c }); } }));
+  s.innerHTML = ''; s.classList.toggle('oculto', !r.length);
+  r.forEach(x => {
+    const d = document.createElement('div');
+    d.innerHTML = `${x.t} <small>${x.sub}</small>`;
+    d.onclick = () => { $('buscar').value = ''; x.f(); };
+    s.appendChild(d);
+  });
+};
+
+$('gps').onclick = () => {
+  if (!navigator.geolocation) return alert('Tu navegador no permite ubicación.');
+  navigator.geolocation.getCurrentPosition(pos => {
+    const { latitude: la, longitude: lo } = pos.coords;
+    if (marcaYo) map.removeLayer(marcaYo);
+    marcaYo = L.circleMarker([la, lo], { radius: 7, color: '#fff', weight: 2, fillColor: '#1a73e8', fillOpacity: 1 }).addTo(map);
+    const d = p => Math.hypot((p.lat - la) * 111, (p.lon - lo) * 98);
+    const cerca = paradas.slice().sort((a, b) => d(a) - d(b))[0];
+    if (!cerca) return;
+    map.setView([la, lo], 14);
+    if (d(cerca) > 3) alert(`La parada más cercana está a ${d(cerca).toFixed(1)} km: ${cerca.nombre}.`);
+    elegir({ tipo: 'parada', ...cerca });
+  }, () => alert('No pude obtener tu ubicación (revisa los permisos).'), { enableHighAccuracy: true, timeout: 10000 });
+};
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => {});
+Guaguas.onPerfil(p => {
+  const el = $('perfil');
+  el.classList.remove('oculto');
+  el.innerHTML = `<b>${p.nivel}</b> · ${p.puntos} pts${p.subidas ? `<br>${p.confirmadas}/${p.subidas} confirmadas` : ''}`;
+});
+Guaguas.iniciar().catch(e => console.warn('identidad de dispositivo no disponible:', e.message));
+
+iniciar().catch(e => {
+  const raro = location.protocol === 'file:' || location.pathname !== '/';
+  $('barra').insertAdjacentHTML('beforeend', '<div id="sug" style="padding:10px 14px">Error cargando datos: ' + e.message +
+    '<br><small>Esta página debe abrirse desde el servidor Flask (python servidor.py) en <b>' + location.origin + '/</b>' +
+    (raro ? ' — ahora estás en ' + location.href : '') + '. Si usas otro servidor (Live Server, http.server…) no tiene la API.</small></div>');
+});
+</script>
+</body>
+</html>
