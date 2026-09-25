@@ -85,9 +85,13 @@ def a_ts(dt):
     return dt.replace(tzinfo=TZ).timestamp()
 
 
-COM = Comunidad(g.DATOS / "comunidad.db", {pid: set(gr["ids"]) for pid, gr in PARADAS.items()},
-                {pid: (gr["lat"], gr["lon"]) for pid, gr in PARADAS.items()}, TZ, reloj=ahora_ts)
-
+from pathlib import Path
+DB_DIR = Path(os.environ.get("DATA_DIR", str(g.DATOS)))
+DB_DIR.mkdir(parents=True, exist_ok=True)
+COM = Comunidad(DB_DIR / "comunidad.db",
+                {pid: set(gr["ids"]) for pid, gr in PARADAS.items()},
+                {pid: (gr["lat"], gr["lon"]) for pid, gr in PARADAS.items()},
+                TZ, reloj=ahora_ts)
 
 @app.errorhandler(Error)
 def error_comunidad(e):
@@ -251,4 +255,4 @@ def api_cerca():
 
 if __name__ == "__main__":
     print(f"{len(PARADAS)} paradas · {len(OSM)} paradas OSM · http://127.0.0.1:{os.environ.get('PORT', 5000)}")
-    app.run(host="127.0.0.1", port=int(os.environ.get("PORT", 5000)), debug=DEBUG)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=DEBUG)
