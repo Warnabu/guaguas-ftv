@@ -3,4 +3,4 @@ requests
 folium
 holidays
 tzdata
-guniconrn
+gunicorn
