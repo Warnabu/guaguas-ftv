@@ -3,8 +3,5 @@ requests
 folium
 holidays
 tzdata
-<<<<<<< HEAD
 gunicorn
-=======
-gunicorn
->>>>>>> 205d549 (Preparar para despliegue en Render)
+cryptography
